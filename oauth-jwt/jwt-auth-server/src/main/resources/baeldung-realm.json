@@ -1039,8 +1039,6 @@
     "strictTransportSecurity" : "max-age=31536000; includeSubDomains"
   },
   "smtpServer" : { },
-  "accountTheme": "custom",
-  "loginTheme": "custom",
   "eventsEnabled" : false,
   "eventsListeners" : [ "jboss-logging" ],
   "enabledEventTypes" : [ ],
@@ -1128,38 +1126,6 @@
         "priority" : [ "100" ]
       }
     },
-          {
-        "id": "59412b8d-aad8-4ab8-84ec-e546900fc124",
-        "name": "java-keystore",
-        "providerId": "java-keystore",
-        "subComponents": {},
-        "config": {
-          "keystorePassword": [
-            "mypass"
-          ],
-          "keyAlias": [
-            "mytest"
-          ],
-          "keyPassword": [
-            "mypass"
-          ],
-          "active": [
-            "true"
-          ],
-          "keystore": [
-            "src/main/resources/mytest.jks"
-          ],
-          "priority": [
-            "101"
-          ],
-          "enabled": [
-            "true"
-          ],
-          "algorithm": [
-            "RS256"
-          ]
-        }
-      }, 
     {
       "id" : "48d40de3-6234-42e8-9449-f68f56abb54b",
       "name" : "aes-generated",
